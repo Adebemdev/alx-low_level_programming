@@ -1,13 +1,10 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* more headers goes there */
-
-/* betty style doc for function main goes there */
 /**
- * main - To assign a random number to the variable n each time it is executed
- * and to check if the number stored in the variable n is positive or negative
- * Return: always 0 (Success)
+ * main - Determines if a number is positive, negative or zero.
+ *
+ * Return: Always 0 (Success)
 */
 int main(void)
 {
@@ -18,15 +15,15 @@ n = rand() - RAND_MAX / 2;
 /* your code goes there */
 if (n > 0)
 {
-printf("n is positive: %d\n", n);
+printf("%d is positive\n", n);
 }
 else if (n == 0)
 {
-printf("n is zero: %d\n", n);
+printf("%d is zero\n", n);
 }
 else
 {
-printf("n is negative: %d\n", n);
+printf("%d is negative\n", n);
 }
 return (0);
 }
