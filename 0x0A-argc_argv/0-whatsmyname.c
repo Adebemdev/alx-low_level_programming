@@ -1,5 +1,5 @@
 #include <stdio.h>
-/*
+/**
  * main - function that prints its name, followed by a new line
  * @argc: the size of the argv array, the number of command line arguments
  * @argv: an array containing the program command line arguments
