@@ -1,9 +1,8 @@
 #include <stdio.h>
 /*
- * main - Program that prints name, followed by a new line
- * @argc: number pf command-line argument pass to the program
- * @argv: array of string containing the number of command-line
- * argument passed
+ * main - function that prints its name, followed by a new line
+ * @argc: the size of the argv array, the number of command line arguments
+ * @argv: an array containing the program command line arguments
  * Return: 0 if successful
 */
 int main(__attribute__ ((unused)) int argc, char *argv[])
