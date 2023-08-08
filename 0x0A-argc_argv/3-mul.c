@@ -8,16 +8,16 @@
 */
 int main(int argc, char *argv[])
 {
-	int x,y;
-	if (argc != 3)
-	{
-		printf("Error\n");
-	}
-	else
-	{
-		x = strtol(argv[1], 0, 10);
-		y = strtol(argv[2], 0, 10);
-		printf("%d\n", x * y);
-	}
-	return (0);
+	int x, y;
+if (argc != 3)
+{
+	printf("Error\n");
+}
+else
+{
+	x = strtol(argv[1], 0, 10);
+	y = strtol(argv[2], 0, 10);
+	printf("%d\n", x * y);
+}
+return (0);
 }
