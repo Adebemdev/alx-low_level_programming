@@ -8,14 +8,16 @@
 */
 int main(int argc, char *argv[])
 {
+	int x,y;
 	if (argc != 3)
 	{
 		printf("Error\n");
-		return (1);
 	}
-	int num1 = atoi(argv[1]);
-	int num2 = atoi(argv[2]);
-	int result = num1 * num2;
-	printf("The result of the multiplication:%d\n", result);
-return (0);
+	else
+	{
+		x = strtol(argv[1], 0, 10);
+		y = strtol(argv[2], 0, 10);
+		printf("%d\n", x * y);
+	}
+	return (0);
 }
