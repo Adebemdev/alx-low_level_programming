@@ -5,6 +5,7 @@
 */
 int main(void)
 {
+void print_dog(struct dog *d);
 struct dog my_dog;
 	my_dog.name = "Poppy";
 	my_dog.age = 3.5;
