@@ -3,7 +3,7 @@
 /**
  * sum_them_all - function that returns the sum of all its parameters
  * @n: the argument to pass into the function
- * @...: The variable number of argument to calculate the sum of
+ * ...: The variable number of argument to calculate the sum of
  * Return: if n == 0 - 0
  * otherwise -  the sum of all parameters
 */
